@@ -1,0 +1,40 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    } 
+    body { 
+    background: #62325e; 
+    font-size: 12px; 
+    } 
+    
+    .container { 
+    flex: 0 1 700px; 
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    margin: auto; 
+    padding: 10px; 
+    } 
+    #h1{
+        text-align: center;
+    }
+    .screen-body-item { 
+    flex: 1; 
+    padding: 50px; 
+    } 
+    input { 
+        height: 40px;
+        width: 200px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 5px 5px 8px;
+    margin: 10px 10px 10px; 
+    } 
+    .showdata { 
+    color: black; 
+    font-size: 1.2rem; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    } 
+    
